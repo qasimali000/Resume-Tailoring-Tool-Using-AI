@@ -53,12 +53,12 @@ pip install -r requirements.txt
 
 ### Usage
 
-Run the Streamlit app:
+- Run the Streamlit app:
 
 ```bash
 streamlit run app.py
 ```
-Open the link provided (usually http://localhost:8501), upload your resume, paste the job description, and get your match score, improvement suggestions, and a tailored cover letter.
+- Open the link provided (usually http://localhost:8501), upload your resume, paste the job description, and get your match score, improvement suggestions, and a tailored cover letter.
 
 ### Project Structure
 
@@ -70,23 +70,17 @@ requirements.txt: Python dependencies
 
 ### How It Works
 
-Extracts text from PDF or TXT resumes
-
-Uses Sentence Transformers for semantic similarity scoring
-
-Generates suggestions and cover letters via local Mistral LLM running on Ollama
-
-Interactive UI via Streamlit for easy usage
+- Extracts text from PDF or TXT resumes
+- Uses Sentence Transformers for semantic similarity scoring
+- Generates suggestions and cover letters via local Mistral LLM running on Ollama
+- Interactive UI via Streamlit for easy usage
 
 ### Future Improvements
 
-Support for DOCX resume uploads
-
-Compare multiple resumes simultaneously
-
-More advanced LLM prompts with user-configurable tone/style
-
-Export cover letters as PDF or email integration
+- Support for DOCX resume uploads
+- Compare multiple resumes simultaneously
+- More advanced LLM prompts with user-configurable tone/style
+- Export cover letters as PDF or email integration
 
 ## License
 MIT License © 2025
