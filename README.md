@@ -75,6 +75,9 @@ requirements.txt: Python dependencies
 - Generates suggestions and cover letters via local Mistral LLM running on Ollama
 - Interactive UI via Streamlit for easy usage
 
+![Uploading Adobe Express - 2025-08-03 12-19-08.gif…]()
+
+
 ### Future Improvements
 
 - Support for DOCX resume uploads
