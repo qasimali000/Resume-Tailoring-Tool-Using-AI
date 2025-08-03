@@ -37,27 +37,27 @@ An AI-powered local app to **match your resume with any job description**, provi
 
 
 ### Clone this repository:
-```bash
-git clone https://https://github.com/qasimali000/Resume-Tailoring-Tool-Using-AI.git
-cd rResume-Tailoring-Tool-Using-AI
-(Optional) Create a virtual environment and activate it:
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-```
+  ```bash
+  git clone https://https://github.com/qasimali000/Resume-Tailoring-Tool-Using-AI.git
+  cd rResume-Tailoring-Tool-Using-AI
+  (Optional) Create a virtual environment and activate it:
+  python -m venv venv
+  source venv/bin/activate  # or venv\Scripts\activate on Windows
+  ```
 
 ### Install Python dependencies:
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 
 ### Usage
 
 - Run the Streamlit app:
 
-```bash
-streamlit run app.py
-```
+  ```bash
+  streamlit run app.py
+  ```
 - Open the link provided (usually http://localhost:8501), upload your resume, paste the job description, and get your match score, improvement suggestions, and a tailored cover letter.
 
 ### Project Structure
