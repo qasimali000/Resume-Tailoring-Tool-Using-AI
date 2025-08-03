@@ -36,31 +36,39 @@ An AI-powered local app to **match your resume with any job description**, provi
 
 
 
-## Clone this repository:
-
-git clone https://github.com/yourusername/resume-tailor-ai.git
-cd resume-tailor-ai
+### Clone this repository:
+```bash
+git clone https://https://github.com/qasimali000/Resume-Tailoring-Tool-Using-AI.git
+cd rResume-Tailoring-Tool-Using-AI
 (Optional) Create a virtual environment and activate it:
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+```
 
-python -m venv .venv
-source .venv/bin/activate   # On Windows: .venv\\Scripts\\activate
-Install Python dependencies:
-
+### Install Python dependencies:
+```bash
 pip install -r requirements.txt
-Usage
+```
+
+
+### Usage
+
 Run the Streamlit app:
 
+```bash
 streamlit run app.py
+```
 Open the link provided (usually http://localhost:8501), upload your resume, paste the job description, and get your match score, improvement suggestions, and a tailored cover letter.
 
-Project Structure
+### Project Structure
+
 app.py: Streamlit UI and app flow
-
+|
 utils.py: Helper functions for text extraction, scoring, and generating text with Ollama LLM
-
+|
 requirements.txt: Python dependencies
 
-## How It Works
+### How It Works
 
 Extracts text from PDF or TXT resumes
 
@@ -70,7 +78,7 @@ Generates suggestions and cover letters via local Mistral LLM running on Ollama
 
 Interactive UI via Streamlit for easy usage
 
-## Future Improvements
+### Future Improvements
 
 Support for DOCX resume uploads
 
